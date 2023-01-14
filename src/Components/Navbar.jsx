@@ -55,13 +55,13 @@ const Navbar = () => {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="md:w-24 text-black hover:bg-[#0cbe8c52] p-2 rounded-lg hover:text-primary">
+              <li className="hover-effect md:w-24 text-black font-semibold hover:bg-[#0cbe8c43] p-2 rounded-lg hover:text-primary">
                 <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="md:w-24 text-black hover:bg-[#0cbe8c52] p-2 rounded-lg hover:text-primary">
+              <li className="md:w-24 text-black font-semibold hover:bg-[#0cbe8c43] p-2 rounded-lg hover:text-primary">
                 <a href="javascript:void(0)">Inventory</a>
               </li>
-              <li className="md:w-24 text-black hover:bg-[#0cbe8c52] p-2 rounded-lg hover:text-primary">
+              <li className="md:w-24 text-black font-semibold hover:bg-[#0cbe8c43] p-2 rounded-lg hover:text-primary">
                 <a href="javascript:void(0)">Checkout</a>
               </li>
    
