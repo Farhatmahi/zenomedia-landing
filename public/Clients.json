@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "1",
+    "name": "Sarah Smith",
+    "image" : "https://i.ibb.co/smzyFwc/Mask-Group-3-2x.png",
+    "position": "Lead Developer, Flowbase",
+    "description": "Separated they live in Bookmarks grove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place andsupplies it with the necessary regelialia."
+  },
+  {
+    "_id": "2",
+    "name": "Craig Sams",
+    "image" : "https://i.ibb.co/DQtpPGv/Mask-Group-2-2x.png",
+    "position": "Lead Developer, Flowbase",
+    "description": "Separated they live in Bookmarks grove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place andsupplies it with the necessary regelialia."
+  },
+  {
+    "_id": "3",
+    "name": "Simon Lee",
+    "image" : "https://i.ibb.co/TBz4tK9/Mask-Group-1-2x.png",
+    "position": "Lead Developer, Flowbase",
+    "description": "Separated they live in Bookmarks grove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place andsupplies it with the necessary regelialia."
+  }
+]

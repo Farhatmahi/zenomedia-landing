@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
+import ClientCard from "./ClientCard";
 
 const Clients = () => {
   const [featureData, setFeatureData] = useState([]);
   useEffect(() => {
-    fetch("FeatureCardData.json")
+    fetch("Clients.json")
       .then((res) => res.json())
       .then((data) => setFeatureData(data));
   }, []);
 
   return (
     <div className="relative container mx-auto">
-      <div className="border-4 bg-[#0cbe8c43] border-primary w-36 h-36 absolute z-0 top-20 left-6 rounded-2xl"></div>
-      <div className="p-10 relative z-10">
+      <div className="border-4 bg-[#0cbe8c43] border-primary w-36 h-36 absolute z-0 top-20 left-0 rounded-2xl"></div>
+      <div className="p-4 md:p-6 relative z-10">
         <div className="flex flex-col rounded-xl container mx-auto px-4 bg-white md:p-20">
           <div className="text-left space-y-8">
             <h1 className="text-5xl font-bold text-primary">
@@ -24,7 +25,7 @@ const Clients = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {featureData.map((data) => (
-                <Card key={data._id} data={data} />
+                <ClientCard key={data._id} data={data} />
               ))}
             </div>
           </div>

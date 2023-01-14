@@ -3,12 +3,12 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="relative container mx-auto">
-      <div className="bg-primary w-36 h-36 absolute z-0 top-28 left-6 rounded-2xl"></div>
-      <div className="p-10 relative z-10">
-        <div className="flex items-center justify-between gap-6 rounded-xl container mx-auto px-4 bg-white md:p-10">
+      <div className="bg-primary w-36 h-36 absolute z-0 top-32 left-0 rounded-2xl"></div>
+      <div className="p-4 md:p-6 relative z-10">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 rounded-xl container mx-auto px-4 py-4 bg-white md:p-10">
           <div className="text-left px-10">
             <img
-              className="w-48"
+              className="w-32 md:w-48"
               src="https://i.ibb.co/tzhCzH5/Image-1-2x.png"
               alt=""
             />
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-4 bg-[#0cbe8c43] border-primary w-36 h-36 absolute z-0 top-28 right-6 rounded-2xl"></div>
+      <div className="border-4 bg-[#0cbe8c43] border-primary w-36 h-36 absolute z-0 top-32 right-0 rounded-2xl"></div>
     </div>
   );
 };

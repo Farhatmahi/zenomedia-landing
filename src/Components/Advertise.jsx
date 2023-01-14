@@ -4,7 +4,7 @@ const Advertise = () => {
   return (
     <div className="relative container mx-auto">
       <div className="bg-primary w-36 h-36 absolute top-0 left-0 rounded-2xl"></div>
-      <div className="relative p-10 z-50">
+      <div className="relative p-4 md:p-6 z-50">
         <div className="rounded-xl container mx-auto px-4 bg-white md:p-20">
           <div className="text-left space-y-8">
             <h1 className="text-5xl font-bold text-primary">
